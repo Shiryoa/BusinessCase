@@ -1,0 +1,80 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    margin:0;
+    padding: 0;
+}
+
+html{
+    font-size: 100%;
+}
+
+.container-fluid{
+    border:yellow 1px solid;
+    margin: 0;
+}
+
+[class^="col"]{
+    border:1px solid blue;
+}
+
+.row{
+    border:1px solid red;
+}
+
+
+@font-face {
+    font-family: "Arfelick";
+    src: url('../fonts/ArfelickFeather.otf');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+
+.header{
+    height:50px;
+    font-family: 'Raleway', sans-serif;
+    color:#3F3F3F;
+}
+
+.icon{
+    height:60px;
+    width:60px;
+}
+
+/* .logo{
+    height:100%;
+} */
+
+.navbar p{
+    margin-left: 15px;
+}
+
+h1{
+    font-family: "Arfelick", 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.balade{
+    align-items: center;
+}
+
+.carousel-control-next .carousel-control-prev{
+background: transparent;
+border:none;
+}
+
+.visually-hidden{
+    visibility: hidden;
+}
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+    filter: invert(1) grayscale(100);
+}
